@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Processing Login ...
+
+  p 1. User was federated to this page with one-time authorization code=#{access_code}
+  p 2. Exchanging authorization code for access token ... 
+  p 3. Access Token is token=#{token}
+  p 4. Exchanging access token for idQ User ID...
+  p 5. User ID is idQID=#{user}
+  
+  h3 Done!
