@@ -29,7 +29,7 @@ var client_secret = 'YOUR_CLIENT_SECRET';
 var redirect_url = 'http://127.0.0.1:8123/oauthcallback';
 
 // idQ TaaS Backend Configuration
-var base_url= "https://inbay.idquanta.com:8087/idqoauth";
+var base_url= "https://beta.idquanta.com/idqoauth";
 var ep_auth=  "/api/v1/auth";
 var ep_pauth= "/api/v1/pauth";
 var ep_preg=  "/api/v1/push";
